@@ -42,7 +42,7 @@ const Log = ({ sh, ssh }) => {
 
         if (role === "admin") {
           // 🔥 send token to admin app
-          window.location.href = `http://localhost:5174?token=${rs.data.token}`;
+          window.location.href = `https://admin-dashboard-bice-omega-74.vercel.app?token=${rs.data.token}`;
         } else {
           navigate("/");
         }

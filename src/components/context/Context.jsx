@@ -4,7 +4,7 @@ import axios from "axios";
 export const sc = createContext(null);
 const Sp = ({ children }) => {
   const [food_list, stf] = useState([]);
-  const url = "http://localhost:4000";
+  const url = "https://foodapp-backend-puce.vercel.app";
   const [ct, sct] = useState({});
   const [token, stk] = useState("");
   const [rl, srl] = useState("");
