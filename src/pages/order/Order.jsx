@@ -84,6 +84,7 @@ const Order = () => {
           name="email"
           value={data.email}
           onChange={onc}
+          className="ip"
         />
         <input
           required
@@ -92,6 +93,7 @@ const Order = () => {
           value={data.street}
           name="street"
           onChange={onc}
+          className="ip"
         />
         <div className="mf">
           <input

@@ -39,18 +39,18 @@ const App = () => {
           <Route
             path="/ct"
             element={
-              <ProtectedRoute role="user">
-                <Cart />
-              </ProtectedRoute>
+              // <ProtectedRoute role="user">
+              <Cart />
+              // </ProtectedRoute>
             }
           />
 
           <Route
             path="/od"
             element={
-              <ProtectedRoute role="user">
-                <Order />
-              </ProtectedRoute>
+              // <ProtectedRoute role="user">
+              <Order />
+              // </ProtectedRoute>
             }
           />
 
@@ -63,10 +63,6 @@ const App = () => {
             }
           />
 
-          {/* ADMIN ROUTE
-          <Route path="/admin" element={<AdminRedirect />} /> */}
-
-          {/* PUBLIC ROUTES */}
           <Route path="/verify" element={<Verify />} />
         </Routes>
       </div>

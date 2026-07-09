@@ -33,3 +33,36 @@
 .pl .cbt button{
     margin-top: 30px;
 }
+@media (max-width:750px) {
+    .pl{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .mf{
+        flex-direction: column;
+        
+    }
+    .ip{
+        /* display: block; */
+    }
+    .pdl input{
+        margin: auto;
+        width: 60%; 
+        margin-bottom: 10px;
+        display: block;
+       
+    }
+    .ctd{
+       padding-left: 15px;
+       padding-right: 15px;
+    }
+   
+    button{
+        display: block;
+        margin: auto;
+    }
+     p,h2{
+        text-align: center;
+     }
+}
