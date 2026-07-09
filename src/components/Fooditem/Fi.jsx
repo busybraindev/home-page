@@ -8,7 +8,7 @@ const Fi = ({ id, name, price, description, image }) => {
   return (
     <div className="fi">
       <div className="fct">
-        <img className="fmg" src={url + "/images/" + image} alt="" />
+        <img className="fmg" src={image} alt="" />
         {ct[id] ? (
           <div className="fc">
             <img onClick={() => rv(id)} src={assets.remove_icon_red} alt="" />
