@@ -126,6 +126,12 @@
    .nav .nm{
         display: none;
     }
+     .nav .logo{
+        width: 70px;
+    }
 
-    
+    .nav{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }

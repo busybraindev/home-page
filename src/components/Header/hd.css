@@ -45,10 +45,17 @@
 @media (max-width:750px) {
 
  .hc{
-    max-width: 65%;
+    max-width: 100%;
+  
+ }
+ .hc h2{
+    width: 80%;
+ margin: auto;
+ 
  }
  .hc p{
     display: none;
+  
  }
  .hc button{
     padding: 2vw 4vw;

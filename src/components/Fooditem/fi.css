@@ -61,3 +61,8 @@
 .fc img{
     width: 30px;
 }
+@media (max-width:900px){
+    .fi{
+        width: 60%;
+    }
+}

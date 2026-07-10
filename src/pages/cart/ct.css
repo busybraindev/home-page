@@ -87,6 +87,13 @@
     }
     .cpc{
         justify-content: start;
+        width: 50%;
+        margin: auto;
+    }
+    .tt{
+        padding-left: 10px;
+        padding-right: 30px;
+    
     }
     
 }
